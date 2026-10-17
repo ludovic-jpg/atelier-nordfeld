@@ -182,7 +182,7 @@ TRADES = [
             ("Lohnt sich ein Einbauschrank nach Maß wirklich?", "In Räumen mit besonderen Maßen (Dachschräge, Nische, schiefe Wand) ja: Er nutzt jeden Zentimeter. An einer geraden Standardwand kann ein fertiges Möbel genügen."),
             ("Wie lange dauert der Einbau einer Innentür?", "In der Regel einige Stunden pro Tür, wenn die Zarge intakt ist. Es dauert länger, wenn der Rahmen erneuert oder die Wände ausgebessert werden müssen."),
         ],
-        "article": "terrasse-bois-pin-ipe-composite",
+        "article": "fenetres-pvc-alu-bois-choisir",
     },
     {
         "key": "peinture",
@@ -302,7 +302,7 @@ TRADES = [
             ("Muss man den Innenausbau genehmigen lassen?", "Rein innere Arbeiten sind oft frei, können aber von der Hausordnung oder einer Änderung der Wohnfläche abhängen. Informieren Sie sich bei der Gemeinde oder der Hausverwaltung."),
             ("Wie lange dauert ein Dachbodenausbau?", "Das schwankt stark je nach Fläche, Dämmung und Zugang. Nach einer Besichtigung nennen wir einen genauen Zeitplan."),
         ],
-        "article": "preparer-murs-avant-peinture",
+        "article": "cloison-faux-plafond-redistribuer-logement",
     },
     {
         "key": "electricite",
@@ -480,6 +480,65 @@ ARTICLES = [
             ]),
         ],
         "outro": "Wenn Sie zwischen zwei Produkten schwanken, bitten Sie mich um eine Einschätzung am Muster: Sehen und Anfassen ändert oft die Entscheidung.",
+    },
+    {
+        "key": "fenetres-pvc-alu-bois-choisir",
+        "slug": "fenster-kunststoff-aluminium-holz-waehlen",
+        "trade": "menuiserie",
+        "title": "Fenster aus Kunststoff, Aluminium oder Holz: wie wählt man?",
+        "desc": "Kunststoff, Aluminium oder Holz: Dämmung, Pflege, Optik und Budget. Die Tipps von Erol Zor, Schreiner in Mulhouse, zur Fensterwahl.",
+        "date": "2026-10-17",
+        "read": 5,
+        "intro": "Neue Fenster sind eine der sichtbarsten Arbeiten, außen wie innen. Das richtige Material hängt von Ihrer Wohnung, Ihrem Budget und davon ab, was Sie pflegen möchten. So vergleiche ich die drei großen Optionen.",
+        "sections": [
+            ("Kunststoff: das beste Preis-Leistungs-Verhältnis", [
+                "Kunststoff ist die häufigste Wahl bei der Renovierung. Er dämmt gut, braucht kaum Pflege (Abwischen genügt) und ist erschwinglich. Die Profile sind breiter, das lässt etwas weniger Glasfläche, und die Farbauswahl ist begrenzter.",
+            ]),
+            ("Aluminium: Schlankheit und Haltbarkeit", [
+                "Aluminium ermöglicht sehr schmale Profile und große Glasflächen. Es ist robust und verzieht sich nicht. Es leitet Wärme besser: Für eine gute Dämmung wählt man Modelle mit thermischer Trennung. Der Preis liegt über dem von Kunststoff.",
+            ]),
+            ("Holz: der Charakter", [
+                "Holz ist am wärmsten in der Wirkung und passt gut zu Gebäuden mit Charakter, etwa zum elsässischen Altbau. Es dämmt gut, braucht aber regelmäßige Pflege (Lasur oder Anstrich). Gut gepflegt hält es sehr lange und lässt sich reparieren.",
+            ]),
+            ("Was genauso zählt wie das Material", [
+                "Verglasung (Zwei- oder Dreifach), Qualität des Einbaus und Luftdichtheit zählen genauso viel wie der Rahmen. Ein hervorragendes Fenster, schlecht eingebaut, verliert einen Großteil seiner Leistung: Ausrichtung, Abdichtung und Befestigung prüfe ich bei jedem Einbau.",
+            ]),
+            ("Mein Rat", [
+                "Überschaubares Budget und wenig Pflege: Kunststoff. Große Fensterflächen und schlichtes Design: Aluminium mit thermischer Trennung. Altbau oder Vorliebe für Holz: Holz, mit Pflegeaufwand. In jedem Fall sehen wir uns Ihre Wohnung gemeinsam an, bevor Sie entscheiden.",
+            ]),
+        ],
+        "outro": "Wenn Sie unsicher sind, sehe ich mir Ihre aktuellen Fenster an und sage Ihnen, was ersetzt werden sollte und was bleiben kann.",
+    },
+    {
+        "key": "cloison-faux-plafond-redistribuer-logement",
+        "slug": "trennwand-abgehaengte-decke-wohnung-neu-aufteilen",
+        "trade": "amenagement-interieur",
+        "title": "Wohnung neu aufteilen: die richtigen Fragen vorab",
+        "desc": "Tragende Wand, Eigentümergemeinschaft, Raumhöhe, Leitungen: Fragen vor der Neuaufteilung einer Wohnung, von einem Handwerker aus Mulhouse.",
+        "date": "2026-10-17",
+        "read": 5,
+        "intro": "Eine Küche öffnen, ein Zimmer schaffen, Leitungen verbergen: Eine neue Raumaufteilung verändert den Alltag grundlegend. Bevor Sie etwas bestellen, sind das die Fragen, die ich immer stelle.",
+        "sections": [
+            ("Ist die Wand tragend?", [
+                "Das ist die erste Frage. Eine tragende Wand entfernt man nicht leichtfertig: Es braucht eine Berechnung und eine passende Verstärkung. Eine Trennwand dagegen lässt sich versetzen oder entfernen. Im Zweifel wird vor dem Abriss geprüft.",
+            ]),
+            ("Was sagt die Hausordnung oder Teilungserklärung?", [
+                "In Mehrfamilienhäusern können manche Innenarbeiten die Zustimmung der Verwaltung oder der Eigentümerversammlung erfordern, besonders wenn sie Gemeinschaftsteile oder die Statik berühren. Besser vorher klären.",
+            ]),
+            ("Wo verlaufen Leitungen?", [
+                "Hinter einer Trennwand verbergen sich oft Kabel, Rohre oder ein Lüftungsschacht. Sie zu verlegen kostet und verlangt, Elektriker und Installateur zu koordinieren, bevor die Wände geschlossen werden.",
+            ]),
+            ("Die Raumhöhe", [
+                "Eine abgehängte Decke verbessert die Dämmung oder verbirgt Leitungen, verringert aber die Raumhöhe. Für Wohnräume schreibt die Regelung eine Mindesthöhe vor, in Frankreich in der Regel 2,20 m. Das prüfen wir vor dem Einbau.",
+            ]),
+            ("Schall- und Wärmedämmung", [
+                "Eine neue Trennwand kann mit Dämmstoff gegen Lärm zwischen zwei Räumen gefüttert werden, eine Vorsatzschale an der Außenwand verbessert den Komfort. Diese Posten plant man von Anfang an, nicht erst am Ende.",
+            ]),
+            ("Die Reihenfolge der Arbeiten", [
+                "Abbruch, Leitungen, Trennwände, Dämmung, Decken, Spachtelarbeiten, Anstrich, Böden: Die Reihenfolge zählt. Genau hier erspart ein einziger Ansprechpartner Hin und Her und Nacharbeiten.",
+            ]),
+        ],
+        "outro": "Ein gutes Ausbauprojekt beginnt mit einer Besichtigung. Rufen Sie mich an, wir sehen uns die Wände gemeinsam an, bevor wir über das Budget sprechen.",
     },
 ]
 

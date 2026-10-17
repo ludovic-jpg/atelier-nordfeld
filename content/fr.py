@@ -183,7 +183,7 @@ TRADES = [
             ("Un placard sur mesure, est-ce vraiment plus intéressant qu'un meuble du commerce ?", "Dans une pièce aux dimensions atypiques (sous pente, alcôve, mur en biais), oui : un ouvrage sur mesure exploite chaque centimètre. Sur un mur droit standard, un meuble du commerce peut suffire."),
             ("Combien de temps dure la pose d'une porte intérieure ?", "En général, quelques heures par porte lorsque le dormant est sain. Le délai s'allonge si le cadre doit être refait ou si les murs sont à reprendre."),
         ],
-        "article": "terrasse-bois-pin-ipe-composite",
+        "article": "fenetres-pvc-alu-bois-choisir",
     },
     {
         "key": "peinture",
@@ -303,7 +303,7 @@ TRADES = [
             ("L'aménagement intérieur est-il soumis à autorisation ?", "Les travaux strictement intérieurs sont souvent libres, mais ils peuvent dépendre du règlement de copropriété ou d'un changement de surface habitable. Renseignez-vous auprès de la mairie ou du syndic."),
             ("Combien de temps pour aménager des combles ?", "Cela varie fortement selon la surface, l'isolation et l'accès. Nous donnons un calendrier précis après visite."),
         ],
-        "article": "preparer-murs-avant-peinture",
+        "article": "cloison-faux-plafond-redistribuer-logement",
     },
     {
         "key": "electricite",
@@ -481,6 +481,65 @@ ARTICLES = [
             ]),
         ],
         "outro": "Si vous hésitez entre deux produits, demandez-moi un avis sur échantillon : voir et toucher change souvent la décision.",
+    },
+    {
+        "key": "fenetres-pvc-alu-bois-choisir",
+        "slug": "fenetres-pvc-aluminium-bois-choisir",
+        "trade": "menuiserie",
+        "title": "Fenêtres PVC, aluminium ou bois : comment choisir ?",
+        "desc": "PVC, aluminium ou bois : isolation, entretien, esthétique et budget. Les conseils d'Erol Zor, menuisier à Mulhouse, pour choisir ses fenêtres.",
+        "date": "2026-10-17",
+        "read": 5,
+        "intro": "Changer ses fenêtres est l'un des travaux qui se voient le plus, de l'extérieur comme de l'intérieur. Le bon matériau dépend de votre logement, de votre budget et de ce que vous êtes prêt à entretenir. Voici comment je compare les trois grandes options.",
+        "sections": [
+            ("Le PVC : le meilleur rapport qualité-prix", [
+                "Le PVC est le choix le plus courant en rénovation. Il isole bien, ne demande presque aucun entretien (un nettoyage suffit) et reste abordable. Ses profils sont plus épais, ce qui laisse un peu moins de surface vitrée, et le choix des teintes est plus limité.",
+            ]),
+            ("L'aluminium : la finesse et la durabilité", [
+                "L'aluminium permet des profils très fins et de grandes surfaces vitrées. Il est solide et ne se déforme pas. Il conduit mieux la chaleur : pour une bonne isolation, il faut choisir des modèles à rupture de pont thermique. Son prix est plus élevé que celui du PVC.",
+            ]),
+            ("Le bois : le caractère", [
+                "Le bois reste le plus chaleureux et convient bien aux bâtiments de caractère, notamment dans le bâti ancien alsacien. Il isole bien mais demande un entretien régulier (lasure ou peinture). Bien entretenu, il dure très longtemps et se répare.",
+            ]),
+            ("Ce qui compte autant que le matériau", [
+                "Le vitrage (double ou triple), la qualité de la pose et l'étanchéité à l'air comptent autant que le cadre. Une excellente fenêtre mal posée perd une bonne partie de ses performances : alignement, calfeutrement et fixations sont des points que je vérifie à chaque pose.",
+            ]),
+            ("Mon conseil", [
+                "Budget maîtrisé et peu d'entretien : PVC. Grandes baies et design épuré : aluminium à rupture de pont thermique. Bâtiment ancien ou goût pour le bois : bois, en acceptant l'entretien. Dans tous les cas, regardons ensemble votre logement avant de décider.",
+            ]),
+        ],
+        "outro": "Si vous hésitez, je peux passer voir vos fenêtres actuelles et vous dire ce qui mérite d'être remplacé et ce qui peut rester.",
+    },
+    {
+        "key": "cloison-faux-plafond-redistribuer-logement",
+        "slug": "cloison-faux-plafond-redistribuer-logement",
+        "trade": "amenagement-interieur",
+        "title": "Redistribuer un logement : cloison, faux plafond, les bonnes questions",
+        "desc": "Mur porteur, copropriété, hauteur sous plafond, gaines : les questions à se poser avant de redistribuer un logement, par un artisan de Mulhouse.",
+        "date": "2026-10-17",
+        "read": 5,
+        "intro": "Ouvrir une cuisine, créer une chambre, cacher des gaines : redistribuer un logement change profondément la vie quotidienne. Avant de commander quoi que ce soit, voici les questions que je pose systématiquement.",
+        "sections": [
+            ("Le mur est-il porteur ?", [
+                "C'est la première question. Un mur porteur ne se supprime pas à la légère : il faut une étude et un renfort structurel adaptés. Une cloison, elle, peut être déplacée ou supprimée. En cas de doute, on fait vérifier avant de démolir.",
+            ]),
+            ("Que dit le règlement de copropriété ?", [
+                "En immeuble, certains travaux intérieurs peuvent nécessiter l'accord du syndic ou de l'assemblée, surtout s'ils touchent aux parties communes ou à la structure. Mieux vaut le vérifier en amont.",
+            ]),
+            ("Où passent les gaines et les réseaux ?", [
+                "Une cloison cache souvent des câbles, des tuyaux ou une gaine de ventilation. Les déplacer a un coût et demande de coordonner l'électricien et le plombier avant de fermer les murs.",
+            ]),
+            ("La hauteur sous plafond", [
+                "Un faux plafond fait gagner en isolation ou permet de cacher des réseaux, mais il réduit la hauteur de la pièce. Pour une pièce de vie, la réglementation impose une hauteur minimale, en général 2,20 m ; on la vérifie avant de poser.",
+            ]),
+            ("L'isolation phonique et thermique", [
+                "Une nouvelle cloison peut être doublée d'un isolant pour limiter le bruit entre deux pièces, et un doublage de mur extérieur améliore le confort. Ce sont des postes à prévoir dès le départ plutôt qu'à la fin.",
+            ]),
+            ("L'ordre des travaux", [
+                "Démolition, réseaux, cloisons, isolation, plafonds, enduits, peinture, sols : l'ordre compte. C'est là qu'un interlocuteur unique évite les allers-retours et les reprises.",
+            ]),
+        ],
+        "outro": "Un bon projet d'aménagement commence par une visite. Appelez-moi, on regarde les murs ensemble avant de parler budget.",
     },
 ]
 

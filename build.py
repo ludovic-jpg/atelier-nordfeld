@@ -39,7 +39,7 @@ LANGS = ["fr", "de"]
 
 # Liens du pôle rénovation (sites frères). Ajouter ici uniquement des sites vérifiés.
 POLE_LINKS = [
-    ("DM Reformas", "Torrevieja (ES)", "https://dm-reformas-showcase.lovable.app"),
+    ("DM Reformas", "Torrevieja (ES)", "https://reformasorihuelacosta.com"),
 ]
 
 # ------------------------------------------------------------------ contenu

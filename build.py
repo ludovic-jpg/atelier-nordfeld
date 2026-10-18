@@ -7,7 +7,7 @@ Usage :
 
 Variables d'environnement :
     ZR_ORIGIN         origine absolue du site (défaut : GitHub Pages)
-    ZR_BASE           sous-chemin (défaut : /ze-renov ; vide avec un domaine propre)
+    ZR_BASE           sous-chemin (défaut : /atelier-nordfeld ; vide avec un domaine propre)
     ZR_FORM_ENDPOINT  URL d'un service de formulaire (ex. Formspree). Vide = formulaire désactivé.
 """
 import datetime
@@ -24,7 +24,7 @@ SRC = os.path.join(ROOT, "src")
 OUT = os.path.join(ROOT, "docs")
 
 ORIGIN = os.environ.get("ZR_ORIGIN", "https://ludovic-jpg.github.io").rstrip("/")
-BASE = os.environ.get("ZR_BASE", "/ze-renov").rstrip("/")
+BASE = os.environ.get("ZR_BASE", "/atelier-nordfeld").rstrip("/")
 FORM_ENDPOINT = os.environ.get("ZR_FORM_ENDPOINT", "")
 BUILD_DATE = datetime.date.today().isoformat()
 

@@ -3,7 +3,7 @@
 import os, re, sys, json
 from html.parser import HTMLParser
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
-BASE = os.environ.get("ZR_BASE", "/ze-renov")
+BASE = os.environ.get("ZR_BASE", "/atelier-nordfeld")
 
 class P(HTMLParser):
     def __init__(s):

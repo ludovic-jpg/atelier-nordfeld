@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ludovic-jpg.github.io/ze-renov/sitemap.xml
+Sitemap: https://ludovic-jpg.github.io/atelier-nordfeld/sitemap.xml
